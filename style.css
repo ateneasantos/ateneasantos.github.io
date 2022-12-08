@@ -7,6 +7,9 @@ body {
     font-family: 'Space Grotesk-light';
     letter-spacing: 1px;
 }
+.title{
+  text-align: left !important;
+}
 p{
     text-align: justify;
 }
