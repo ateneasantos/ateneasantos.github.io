@@ -1,0 +1,71 @@
+
+body {
+    background-color: #1d1e25;
+    color:white;
+    font-size: 20px;
+    font-family: 'Space Grotesk-light';
+    letter-spacing: 1px;
+}
+p{
+    text-align: justify;
+}
+#buttons .col-12{
+    text-align: center;
+
+}
+
+.linetype{
+    font-size: 2em;
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: justify;
+}
+
+#boton-email {
+    border-radius: 2em;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Space Grotesk';
+    padding: 0.5em;
+    margin: 0.4em;
+}
+
+#boton-behance {
+    border-radius: 2em;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Space Grotesk';
+    padding: 0.5em;
+    margin: 0.4em;
+}
+#wave{
+    z-index: -1;
+    padding-top: 35vh;
+    position: absolute;
+}
+#boton-linkedin {
+    border-radius: 2em;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Space Grotesk';
+    padding: 0.5em;
+    margin: 0.4em;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2F2F31;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2F2F31;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2F2F31;
+}
