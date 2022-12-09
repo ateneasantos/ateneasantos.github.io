@@ -1,81 +1,138 @@
 
 body {
-    border-top:white 0.2em solid;
-    background-color: #1d1e25;
-    color:white;
-    font-size: 20px;
-    font-family: 'Space Grotesk-light';
-    letter-spacing: 1px;
+  background-color: #1d1e25;
+  color:white;
+  font-size: 20px;
+  font-family: 'Space Grotesk-light';
+  letter-spacing: 1px;
 }
-a{
+
+.title {
+  text-align: left !important;
+  margin-top: 40px;
+  font-size: 40px;
+  font-family: 'Space Grotesk-bold'
+}
+
+a {
   text-decoration: none;
 }
-.title{
-  text-align: left !important;
-}
-p{
+
+p {
     text-align: justify;
 }
+
 #buttons .col-12{
     text-align: center;
 
 }
-.resume, .resume a{
+
+.resume, .resume a {
   border-radius: 2em;
   text-align: center;
-  padding:0.2em;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
+  border: 1px solid #b5b7c5;
   text-decoration: none;
-  background-color: white;
-  color: white;
+  background-color: #b5b7c5;
+  color: #b5b7c5;
   background-color:  rgba(29, 30, 37, 0.7);
+  padding: 8px 20px 8px;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
-.resume:hover{
-  cursor:pointer;
 
+.resume:hover {
+  cursor:pointer;
   text-decoration: none;
   color:#1d1e25;
   background-color:  rgba(255, 255, 255, 0.6);
 }
-.linetype{
-    font-size: 2em;
-    font-family: 'Cinzel Decorative', cursive;
-    text-align: justify;
+
+#boton-email:hover {
+  cursor:pointer;
+  text-decoration: none;
+  color:#1d1e25;
+  background-color:  rgba(255, 255, 255, 0.6);
+}
+
+#boton-behance:hover {
+  cursor:pointer;
+  text-decoration: none;
+  color:#1d1e25;
+  background-color:  rgba(255, 255, 255, 0.6);
+}
+
+#boton-linkedin:hover {
+  cursor:pointer;
+  text-decoration: none;
+  color:#1d1e25;
+  background-color:  rgba(255, 255, 255, 0.6);
 }
 
 #boton-email {
     border-radius: 2em;
     background: transparent;
-    border: 1px solid white;
-    color: white;
-    font-family: 'Space Grotesk';
-    padding: 0.5em;
-    margin: 0.4em;
+    border: 1px solid #b5b7c5;
+    color: #b5b7c5;
+    font-family: 'Lato';
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 8px 20px 8px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#boton-behance {
+  border-radius: 2em;
+  background: transparent;
+  border: 1px solid #b5b7c5;
+  color: #b5b7c5;
+  font-family: 'Lato';
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 8px 20px 8px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.buttons-row {
+    display: inline-block;
 }
 
 #boton-behance {
     border-radius: 2em;
     background: transparent;
-    border: 1px solid white;
-    color: white;
-    font-family: 'Space Grotesk';
-    padding: 0.5em;
-    margin: 0.4em;
+    border: 1px solid #b5b7c5;
+    color: #b5b7c5;
+    font-family: 'Lato';
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 8px 20px 8px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: -13px;
+    margin-bottom: 10px;
 }
-#wave{
+
+#wave {
     z-index: -1;
-    padding-top: 35vh;
+    padding-top: 25vh;
     position: absolute;
 }
+
 #boton-linkedin {
     border-radius: 2em;
     background: transparent;
-    border: 1px solid white;
-    color: white;
-    font-family: 'Space Grotesk';
-    padding: 0.5em;
-    margin: 0.4em;
+    border: 1px solid #b5b7c5;
+    color: #b5b7c5;
+    font-family: 'Lato';
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 8px 20px 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
 }
 
 ::-webkit-scrollbar {
