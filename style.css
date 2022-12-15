@@ -1,20 +1,18 @@
 
 body {
-  background-color: #1d1e25;
   color:white;
   font-size: 20px;
   font-family: 'Space Grotesk-light';
   letter-spacing: 1px;
-}
-
-.container {
-  padding: 120px 300px 300px;
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .title {
   text-align: left !important;
-  margin-top: 40px;
-  font-size: 40px;
+  margin-top: 200px;
+  font-size: 30px;
   font-family: 'Space Grotesk-bold'
 }
 
@@ -22,22 +20,11 @@ a {
   text-decoration: none;
 }
 
-p {
-    text-align: justify;
-}
-
-.buttons-row {
-  display: flex;
-  flex-flow: row wrap;
-  align-content: center;
-  justify-content: space-around;
-}
-
-#boton-cv, .boton-cv a {
+#boton-cv {
   border-radius: 2em;
   background: transparent;
-  border: 1px solid #b5b7c5;
-  color: #b5b7c5;
+  border: 1px solid #D2D7DF;
+  color: #D2D7DF;
   font-family: 'Lato';
   font-size: 14px;
   letter-spacing: 2px;
@@ -50,36 +37,36 @@ p {
 #boton-cv:hover {
   cursor:pointer;
   text-decoration: none;
-  color:#1d1e25;
-  background-color:  rgba(255, 255, 255, 0.6);
+  color:#353535;
+  background-color:  #D2D7DF;
 }
 
 #boton-email:hover {
   cursor:pointer;
   text-decoration: none;
-  color:#1d1e25;
-  background-color:  rgba(255, 255, 255, 0.6);
+  color:#353535;
+  background-color:  #D2D7DF;
 }
 
 #boton-behance:hover {
   cursor:pointer;
   text-decoration: none;
-  color:#1d1e25;
-  background-color:  rgba(255, 255, 255, 0.6);
+  color:#353535;
+  background-color:  #D2D7DF;
 }
 
 #boton-linkedin:hover {
   cursor:pointer;
   text-decoration: none;
-  color:#1d1e25;
-  background-color:  rgba(255, 255, 255, 0.6);
+  color:#353535;
+  background-color:  #D2D7DF;
 }
 
 #boton-email {
     border-radius: 2em;
     background: transparent;
-    border: 1px solid #b5b7c5;
-    color: #b5b7c5;
+    border: 1px solid #D2D7DF;
+    color: #D2D7DF;
     font-family: 'Lato';
     font-size: 14px;
     letter-spacing: 2px;
@@ -92,8 +79,8 @@ p {
 #boton-behance {
   border-radius: 2em;
   background: transparent;
-  border: 1px solid #b5b7c5;
-  color: #b5b7c5;
+  border: 1px solid #D2D7DF;
+  color: #D2D7DF;
   font-family: 'Lato';
   font-size: 14px;
   letter-spacing: 2px;
@@ -103,38 +90,23 @@ p {
   margin-bottom: 10px;
 }
 
-#boton-behance {
-    border-radius: 2em;
-    background: transparent;
-    border: 1px solid #b5b7c5;
-    color: #b5b7c5;
-    font-family: 'Lato';
-    font-size: 14px;
-    letter-spacing: 2px;
-    padding: 8px 20px 8px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-
-#wave {
-    z-index: -1;
-    padding-top: 25vh;
-    position: absolute;
-}
-
 #boton-linkedin {
     border-radius: 2em;
     background: transparent;
-    border: 1px solid #b5b7c5;
-    color: #b5b7c5;
+    border: 1px solid #D2D7DF;
+    color: #D2D7DF;
     font-family: 'Lato';
     font-size: 14px;
     letter-spacing: 2px;
     padding: 8px 20px 8px;
     margin-top: 10px;
     margin-bottom: 10px;  
+}
+
+#wave {
+  z-index: -1;
+  padding-top: 25vh;
+  position: absolute;
 }
 
 ::-webkit-scrollbar {
