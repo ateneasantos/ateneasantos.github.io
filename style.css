@@ -11,7 +11,6 @@ body {
 
 .title {
   text-align: left !important;
-  margin-top: 200px;
   font-size: 30px;
   font-family: 'Space Grotesk-bold'
 }
@@ -100,6 +99,7 @@ a {
     letter-spacing: 2px;
     padding: 8px 20px 8px;
     margin-top: 10px;
+    margin-right: 10px;
     margin-bottom: 10px;  
 }
 
