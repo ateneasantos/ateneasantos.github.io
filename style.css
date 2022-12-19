@@ -4,7 +4,7 @@ body {
   font-size: 20px;
   font-family: 'Space Grotesk-light';
   letter-spacing: 1px;
-  overflow: hidden;
+
   background: #0F2027;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -12,13 +12,15 @@ body {
 
 .title {
   text-align: left !important;
-  font-size: 30px;
-  font-family: 'Space Grotesk-bold'
+  font-size: 1.6em;
+  font-family: 'Cinzel Decorative';
 }
 a {
   text-decoration: none;
 }
-
+p{
+  text-align: justify;
+}
 button{
   border-radius: 2em;
   background: transparent;
