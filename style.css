@@ -15,12 +15,11 @@ body {
   font-size: 30px;
   font-family: 'Space Grotesk-bold'
 }
-
 a {
   text-decoration: none;
 }
 
-#boton-cv {
+button{
   border-radius: 2em;
   background: transparent;
   border: 1px solid #D2D7DF;
@@ -28,81 +27,19 @@ a {
   font-family: 'Lato';
   font-size: 14px;
   letter-spacing: 2px;
-  padding: 8px 20px 8px;
+  padding: 8px 10px;
   margin-top: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
 }
 
-#boton-cv:hover {
+button:hover {
   cursor:pointer;
   text-decoration: none;
   color:#353535;
   background-color:  #D2D7DF;
 }
 
-#boton-email:hover {
-  cursor:pointer;
-  text-decoration: none;
-  color:#353535;
-  background-color:  #D2D7DF;
-}
-
-#boton-behance:hover {
-  cursor:pointer;
-  text-decoration: none;
-  color:#353535;
-  background-color:  #D2D7DF;
-}
-
-#boton-linkedin:hover {
-  cursor:pointer;
-  text-decoration: none;
-  color:#353535;
-  background-color:  #D2D7DF;
-}
-
-#boton-email {
-    border-radius: 2em;
-    background: transparent;
-    border: 1px solid #D2D7DF;
-    color: #D2D7DF;
-    font-family: 'Lato';
-    font-size: 14px;
-    letter-spacing: 2px;
-    padding: 8px 20px 8px;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-
-#boton-behance {
-  border-radius: 2em;
-  background: transparent;
-  border: 1px solid #D2D7DF;
-  color: #D2D7DF;
-  font-family: 'Lato';
-  font-size: 14px;
-  letter-spacing: 2px;
-  padding: 8px 20px 8px;
-  margin-top: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-
-#boton-linkedin {
-    border-radius: 2em;
-    background: transparent;
-    border: 1px solid #D2D7DF;
-    color: #D2D7DF;
-    font-family: 'Lato';
-    font-size: 14px;
-    letter-spacing: 2px;
-    padding: 8px 20px 8px;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;  
-}
 #wave{
   position: absolute;
 }
