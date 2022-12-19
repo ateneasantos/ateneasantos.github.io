@@ -103,10 +103,10 @@ a {
     margin-bottom: 10px;  
 }
 
-#wave {
+#waves {
   z-index: -1;
-  padding-top: 25vh;
   position: absolute;
+  padding-top:70vh;
 }
 
 ::-webkit-scrollbar {
