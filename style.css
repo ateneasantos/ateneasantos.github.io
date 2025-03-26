@@ -1,11 +1,11 @@
+@font-face {
+  font-family: OverusedGrotesk;
+  src: url(fonts/OverusedGrotesk.ttf) format('truetype');
+}
 
 body {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-
-background: #DAD299;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #B0DAB9, #DAD299);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #B0DAB9, #DAD299); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  font-family: OverusedGrotesk, sans-serif;
+  background: white
 }
 
 .img {
@@ -17,8 +17,7 @@ background: linear-gradient(to right, #B0DAB9, #DAD299); /* W3C, IE 10+/ Edge, F
 .title {
   text-align: center !important;
   font-size: 32px;
-  font-weight: 500;
-  letter-spacing: 0.459375rem;
+  font-weight: 700;
 }
 
 a {
